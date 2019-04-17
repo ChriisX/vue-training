@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Basic component</h1>
     <span v-bind:title="title">{{ message }}</span>
     <span v-if="visible">This message is visible</span>
   </div>
@@ -7,6 +8,7 @@
 
 <script>
 export default {
+  name: "BasicComponent",
   data() {
     return {
       message: "Hello Vue!",
