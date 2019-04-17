@@ -2,18 +2,21 @@
   <div id="app">
     <BasicComponent />
     <IterationComponent />
+    <InputComponent />
   </div>
 </template>
 
 <script>
 import BasicComponent from './components/BasicComponent.vue';
 import IterationComponent from './components/IterationComponent.vue';
+import InputComponent from './components/InputComponent.vue';
 
 export default {
   name: 'app',
   components: {
     BasicComponent,
-    IterationComponent
+    IterationComponent,
+    InputComponent
   }
 }
 </script>
