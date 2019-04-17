@@ -1,29 +1,8 @@
-# vue-tests
+# Vue training repository
 
-## Project setup
-```
-npm install
-```
+This repository contains all the tests I have done during my learning of Vue.JS
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Resources
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [Vue.JS guide](https://vuejs.org/v2/guide/)
+- [Vue.JS crash course](https://www.youtube.com/watch?v=Wy9q22isx3U)
