@@ -4,6 +4,7 @@
     <IterationComponent />
     <InputComponent />
     <BasicAttributesComponent />
+    <StyleBindingComponent />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import BasicComponent from './components/BasicComponent.vue';
 import IterationComponent from './components/IterationComponent.vue';
 import InputComponent from './components/InputComponent.vue';
 import BasicAttributesComponent from './components/BasicAttributesComponent.vue';
+import StyleBindingComponent from './components/StyleBindingComponent.vue';
 
 export default {
   name: 'app',
@@ -19,7 +21,8 @@ export default {
     BasicComponent,
     IterationComponent,
     InputComponent,
-    BasicAttributesComponent
+    BasicAttributesComponent,
+    StyleBindingComponent
   }
 }
 </script>
