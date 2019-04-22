@@ -3,6 +3,7 @@
     <BasicComponent />
     <IterationComponent />
     <InputComponent />
+    <BasicAttributesComponent />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import BasicComponent from './components/BasicComponent.vue';
 import IterationComponent from './components/IterationComponent.vue';
 import InputComponent from './components/InputComponent.vue';
+import BasicAttributesComponent from './components/BasicAttributesComponent.vue';
 
 export default {
   name: 'app',
   components: {
     BasicComponent,
     IterationComponent,
-    InputComponent
+    InputComponent,
+    BasicAttributesComponent
   }
 }
 </script>
